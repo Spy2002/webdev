@@ -1,0 +1,1 @@
+alert('ARE YOU 18+')
