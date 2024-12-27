@@ -4,35 +4,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jai singh</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ultra edit</title>
+    <style>
+        .nav1{
+            display: flex;
+            list-style: none;
+            gap: 0px;
+            justify-content:space-around;
+            align-items: center;
+            /* border: 2px solid;
+             border-radius: 20px; */
+        }
+
+        .nav2 {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        li {
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(142, 167, 189);
+            list-style: none;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .logo {
+            /* border: 2px solid black; */
+            height: 30px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            /* border: 2px solid black; */
+            height: 120px;
+            width: 160px;
+        }
+.h1{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 80px;
+    line-height: 2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: 11;
+}
+h1{
+    font-weight:1 ;
+}
+a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 20px;
+    background-color: rgb(132, 220, 250);
+    border: none;
+    border-radius: 20px;
+}
+.link{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.box{
+    border: 2px solid;
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+}
+.english{
+    height: 10px;
+    width: 150px;
+    border-radius:10px ;
+    display: flex;
+    align-items: center;
+}
+div.box h4{
+    text-align:center;
+}
+div.link.box a{
+    text-align: center;
+}
+div.button{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+a.links{
+    font-size: small;
+    padding: 0px;
+    /* background-color: green; */
+}
+button.green{
+    background-color:rgb(135, 245, 135) ;
+}
+.box{ 
+    background-color: whitesmoke;
+    border: none;
+}
+    </style>
 </head>
 
 <body>
-    <h1> form for apply</h1>
-    <form action="post">
-        <label for="username">enter username</label>
-        <input type="text" id="username" placeholder="enter username ">
-        <div>
-            <input type="radio" id="male" name="gender">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender">
-            <label for="female">Famle</label>
-        </div>
-        <div>
-            <input type="checkbox" name="check" id="check" value="yes">
-            <label for="check">subscribe</label>
-        </div>
-        <div>
-            <textarea name="jai" id="jai" rows="4" cols="33">enter text</textarea>
-        </div>
-        <input type="submit" value="submit">
-    </form>
-    <p style="color: pink;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem odit
-        dolorum accusantium recusandae, quaerat autem dicta maxime et aut odio eligendi nobis quia corporis. Aut
-        adipisci porro itaque quia!</p>
+    <div class="container">
+        <div class="nav1">
+            <div class="logo">
+                <img src="rb_44.png" alt="">
+            </div>
+            <ul class="nav2">
+                <li>Product<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li>Home<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li>About<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li>Contacts<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
+                <li>More<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></li>
 
-    <script src="script.js"></script>
+            </ul>
+        </div>
+    </div>
+    <div class="h1">
+    <h1>Download <b>Ultra</b> for Windows</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam nulla expedita voluptatum. Nisi est, cupiditate nobis voluptas enim itaque tempore veritatis nam.
+    </p>
+    <button>
+        <a href="ue_english_64.exe"><b>DOWNLOAD FOR LINUX</b></a>
+    </button>
+</div>
+<div class="link">
+    <div class="box box1"><h4>English version</h4>
+        <div class="button">
+        <button class="english">
+            <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+        </button>
+        <button class="green english">
+            <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+        </button>
+    </div>
+    </div>
+    <div class="box box2">
+        <h4>Hindi version</h4>
+        <div class="button">
+        <button class="english">
+            <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+        </button>
+        <button class="green english">
+            <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+        </button>
+    </div>
+    </div>
+    <div class="box box3">
+        <h4>Japnes version</h4>
+        <div class="button">
+        <button class="english">
+            <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+        </button>
+        <button class="green english">
+            <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+        </button>
+    </div> 
+    </div>
+    <div class="box box4">
+        <h4>German version</h4>
+        <div class="button">
+                    <button class="english">
+            <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+        </button>
+        <button class="green english">
+            <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+        </button></div>
+
+    </div>
+    <div class="box box5">
+        <h4>Russian version</h4>
+        <div class="button">
+            <button class="english">
+    <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+</button>
+<button class="green english">
+    <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+</button></div>
+
+    </div>
+    <div class="box box6"><h4>Rajasthani version</h4>
+        <div class="button">
+            <button class="english">
+    <a class="links" href="ue_english_64.exe">Download 32-bit</a>
+</button>
+<button class="green english">
+    <a class="links" href="ue_english_64.exe">Download 64-bit</a>
+</button></div>
+</div>
+    
+</div>
 </body>
 
 </html>
