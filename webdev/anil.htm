@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anil price</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ol{
+            color: red;
+        }
+        .submit{
+            margin: 7px;
+        }
+        #choose{
+            background-color: rgb(78, 78, 74);
+            font-style: italic;
+            color: wheat;
+        }
+        caption{
+            border: 2px solid pink;
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: rgb(230, 198, 203); color: #000;">Anil ka price explore</h1>
+    <form action="post">
+        <div>
+            <label for="age" style="color: rgb(223, 231, 231); background-color: cadetblue;"> what is your age</label>
+            <input type="text" id="age" name="age">
+        </div>
+        <div>
+            <label style="color: rgb(168, 145, 51);" for="money"> how much money you have </label>
+            <input type="text" id="money" name="money">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+        </div>
+        <table>
+            <caption>list of price</caption>
+            <tr>
+                <th> what you want </th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td colspan="">
+                    blow job
+                </td>
+                <td rowspan="3">300</td>
+                </td>
+            </tr>
+        </table>
+        <ol type="i">
+            <li>anil</li>
+            <li>sunil</li>
+            <li>vikash</li>
+            <li> subh</li>
+        </ol>
+        <label for="choose">select one </label>
+        <select name="choose" id="choose">
+            <option value="anil">anil</option>
+            <option value="sunil">sunil</option>
+            <option value="vikash">vikash</option>
+            <option value="subh">subh</option>
+        </select>
+        <div>
+            <input class="submit" type="submit" value="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
